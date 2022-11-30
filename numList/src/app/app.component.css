@@ -1,0 +1,19 @@
+.everything{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  width: 60px;
+  height: 40px;
+  margin: 1px;
+}
+

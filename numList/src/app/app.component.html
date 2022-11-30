@@ -1,0 +1,11 @@
+<div class="everything">
+  <input [(ngModel)]="numbers" class="input">
+</div>
+<div class="everything">
+  <p *ngIf="error">Valid input should contain only digits and commas(,)</p>
+</div>
+<div class="btnContainer">
+  <button class="button" (click)="callSortApi(numbers, 'asc')">sort ASC</button>
+  <button class="button" (click)="callSortApi(numbers,'desc')">sort DESC</button>
+</div>
+
